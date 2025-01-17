@@ -59,5 +59,5 @@ ASGI_APPLICATION = 'hastexo_guacamole_client.asgi:application'
 
 XBLOCK_SETTINGS = {
     "hastexo": json.loads(
-        """{{ HASTEXO_XBLOCK_SETTINGS | tojson(indent=4) }}""")
+        r"""{{ HASTEXO_XBLOCK_SETTINGS | tojson(indent=4) }}""")
 }
